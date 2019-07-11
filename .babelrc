@@ -1,0 +1,12 @@
+{
+    "presets":[
+        "next/babel",  //리액트 오류 해결
+		"@babel/preset-react" // 리액트 디펜던시
+    ],
+    "plugins": [
+        ["styled-components",{"ssr":true,"displayName":true, "preprocess":false}],
+        ["@babel/plugin-proposal-decorators",{"legacy":true}],
+        ["@babel/plugin-proposal-class-properties",{"loose":true}],
+        [ "@babel/plugin-transform-runtime" ] // mobx 디펜던시
+    ] 
+}

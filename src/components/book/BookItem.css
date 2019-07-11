@@ -1,0 +1,22 @@
+.BookItem {
+    display: flex;
+    padding: 0.5rem;
+    padding-right: 1rem;
+}
+
+.BookItem .img{
+    margin-right: 1rem;
+}
+
+.BookItem .badge{
+    margin: 0 0 0 22px;
+}
+
+.BookItem .icon{
+    margin-left: auto;
+    cursor: pointer;
+} 
+
+.BookItem+.BookItem{
+    margin-top: 1.2rem;
+}

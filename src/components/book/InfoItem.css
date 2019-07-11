@@ -1,0 +1,14 @@
+.InfoItem {
+    display: flex;
+    padding: 0.5rem;
+    padding-right: 1rem;
+}
+
+.InfoItem .icon{
+    margin-left: auto;
+    cursor: pointer;
+} 
+
+.InfoItem+.InfoItem{
+    margin-top: 1.2rem;
+}
