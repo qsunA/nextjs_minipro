@@ -1,6 +1,7 @@
 import App from 'next/app';
 import { Provider } from 'mobx-react';
 import DetailStore from '../src/stores/DetailStore';
+import React from 'react';
 
 const root = new DetailStore();
 

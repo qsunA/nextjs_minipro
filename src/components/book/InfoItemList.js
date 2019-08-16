@@ -1,6 +1,4 @@
 import React from 'react';
-import NameLabel from '../common/NameLabel';
-import RightIcon from '../common/RightIcon';
 import InfoItem from './InfoItem';
 import { inject, observer } from 'mobx-react';
 
